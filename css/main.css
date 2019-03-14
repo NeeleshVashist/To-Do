@@ -1,11 +1,11 @@
 body {
-    /* font-family: 'Open Sans'; */
+	text-align: center;
 	font-weight: 300;
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
+	background-size: 550% 550%;
 	-webkit-animation: Gradient 20s ease infinite;
 	-moz-animation: Gradient 20s ease infinite;
 	animation: Gradient 20s ease infinite;
@@ -48,17 +48,11 @@ body {
 }
 
 #heading {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Open Sans';
 	font-weight: 300;
     color: #ffffff;
     font-size: 6em;
     padding: 20px;
-}
-
-body {
-    /* background-image: linear-gradient(to right, #de6262, #ffb88c); */
-    text-align: center;
 }
 
 input {
