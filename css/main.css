@@ -1,0 +1,77 @@
+#heading {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 6em;
+    padding: 20px;
+}
+
+body {
+    background-image: linear-gradient(to right, #de6262, #ffb88c);
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+	border-radius: 4px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	border: 1px solid rgba(194, 192, 192, 0.5);
+	border-radius: 5px;
+	margin-bottom: 5px;
+	background: rgba(207, 207, 207, 0.2);
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: rgba(217, 215, 215, 0.45);
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #de6262;
+	font-weight: 800;
+}
+
+.btn-outline-primary {
+    border-color: #de6262;
+    color: #de6262;
+	padding: 4px 15px;
+	font-weight: normal;
+}
+
+.btn-outline-primary:hover{
+    border-color: #de6262;
+	background-color: rgba(222, 98, 98, 0.15);
+	color: #ffffff;
+}
+
+.done {
+    text-decoration: line-through;
+	background: rgba(207, 207, 207, 0.01) !important;
+	color: rgb(194, 192, 192);
+}
+
+.delete {
+	display: none;
+}
