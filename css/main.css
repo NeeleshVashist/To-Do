@@ -1,16 +1,69 @@
+body {
+    /* font-family: 'Open Sans'; */
+	font-weight: 300;
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
 #heading {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans';
+	font-weight: 300;
     color: #ffffff;
     font-size: 6em;
     padding: 20px;
 }
 
 body {
-    background-image: linear-gradient(to right, #de6262, #ffb88c);
+    /* background-image: linear-gradient(to right, #de6262, #ffb88c); */
     text-align: center;
 }
 
 input {
+    font-family: 'Open Sans';
+	font-weight: 300;
     margin-top: 20px;
 	border-radius: 4px;
 	min-width: 65%;
@@ -24,7 +77,8 @@ ul {
 }
 
 li {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans';
+	font-weight: 300;
 	list-style: none;
 	padding: 10px 20px;
 	color: #ffffff;
@@ -49,21 +103,13 @@ li > button {
 	background: none;
 	border: none;
 	float: right;
-	color: #de6262;
+	color: #23D5AB;
 	font-weight: 800;
 }
 
 .btn-outline-primary {
-    border-color: #de6262;
-    color: #de6262;
 	padding: 4px 15px;
 	font-weight: normal;
-}
-
-.btn-outline-primary:hover{
-    border-color: #de6262;
-	background-color: rgba(222, 98, 98, 0.15);
-	color: #ffffff;
 }
 
 .done {
