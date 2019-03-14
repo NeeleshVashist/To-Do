@@ -13,37 +13,37 @@ body {
 
 @-webkit-keyframes Gradient {
 	0% {
-		background-position: 0% 50%
+		background-position: 0% 40%
 	}
 	50% {
-		background-position: 100% 50%
+		background-position: 100% 60%
 	}
 	100% {
-		background-position: 0% 50%
+		background-position: 0% 40%
 	}
 }
 
 @-moz-keyframes Gradient {
 	0% {
-		background-position: 0% 50%
+		background-position: 0% 40%
 	}
 	50% {
-		background-position: 100% 50%
+		background-position: 100% 60%
 	}
 	100% {
-		background-position: 0% 50%
+		background-position: 0% 40%
 	}
 }
 
 @keyframes Gradient {
 	0% {
-		background-position: 0% 50%
+		background-position: 0% 40%
 	}
 	50% {
-		background-position: 100% 50%
+		background-position: 100% 60%
 	}
 	100% {
-		background-position: 0% 50%
+		background-position: 0% 40%
 	}
 }
 
